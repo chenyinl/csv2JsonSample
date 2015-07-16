@@ -1,4 +1,10 @@
 <?php
+/**
+ * Conver a CSV file into a JSON format
+ * 
+ * Usage: >php csv2json.php CSV_FILE_NAME
+ */
+
 if( !$argv[1] ){
 	echo "No file provided\n";
 	exit();
